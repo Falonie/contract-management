@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+spring:
+  profiles:
+    active: prod
+#    active: dev
+  application:
+    name: contract-management
+
+sa-token:
+  token-style=: simple-uuid
+  timeout: 2592000
